@@ -54,4 +54,10 @@ public class StuController {
         stuService.deleteStu(sid);
         return "redirect:/stu/list";
     }
+
+    @RequestMapping("/update")
+    public String update(Student student){
+
+        return null;
+    }
 }
