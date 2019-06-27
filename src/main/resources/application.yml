@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:mysql:///mydatabase
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
