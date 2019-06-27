@@ -60,4 +60,11 @@ public class StuController {
 
         return null;
     }
+
+
+    @RequestMapping("/queryone/{id}")
+    public String queryById(@PathVariable("id") Integer id){
+
+        return null;
+    }
 }
